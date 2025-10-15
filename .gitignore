@@ -1,0 +1,70 @@
+# -----------------------------
+# 🔹 Python build / virtual env
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+.env
+.venv
+venv/
+ENV/
+env/
+
+# -----------------------------
+# 🔹 PyInstaller build folders
+# -----------------------------
+build/
+dist/
+*.spec
+
+# -----------------------------
+# 🔹 Logs and cache
+# -----------------------------
+*.log
+*.pot
+*.mo
+*.cache
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+
+# -----------------------------
+# 🔹 IDE / Editor settings
+# -----------------------------
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# -----------------------------
+# 🔹 OS-specific files
+# -----------------------------
+Thumbs.db
+Desktop.ini
+.DS_Store
+__MACOSX/
+
+# -----------------------------
+# 🔹 Misc
+# -----------------------------
+# Ignore installer outputs
+*.exe
+*.msi
+*.zip
+*.tar
+*.gz
+*.iso
+
+# -----------------------------
+# 🔹 Local test data / backups
+# -----------------------------
+test/
+tests/__pycache__/
+*.bak
+*.old
